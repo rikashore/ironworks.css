@@ -85,6 +85,7 @@ figure {
  */
 figcaption {
   text-align: right; /* 1 */
+  font-style: italic;
   font-size: 0.8em; /* 2 */
   border-bottom: .2rem solid var(--fg); /* 3 */
   padding-bottom: .2rem; /* 4 */
@@ -361,7 +362,7 @@ blockquote, pre {
   margin-left: 0; /* 1 */
   margin-right: 0; /* 1 */
   padding: .5rem .8rem; /* 1 */
-  border-left: .1rem solid var(--fg); /* 2 */
+  border-left: .3rem solid var(--fg); /* 2 */
   overflow-y: hidden; /* 3 */
 }
 
