@@ -6,7 +6,7 @@
 
 :root {
   --fg: #111;
-  --bg: #fff;
+  --bg: whitesmoke;
   --font: Helvetica, Arial, sans-serif;
   --font-h: Helvetica, Arial, sans-serif;
   --main-width: 640px;
@@ -19,7 +19,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --fg: #fff;
+    --fg: whitesmoke;
     --bg: #111;
   }
 }
