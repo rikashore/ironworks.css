@@ -1,5 +1,10 @@
 /*! concrete.css v3.1.0 | MIT License | github.com/louismerlin/concrete.css */
 
+@font-face {
+  font-family: DepartureMono;
+  src: url(DepartureMono-Regular.woff2);
+}
+
 /**
  * Set universal color, main width, font and border-radius variables
  */
@@ -8,7 +13,7 @@
   --fg: #111;
   --bg: whitesmoke;
   --font: Helvetica, Arial, sans-serif;
-  --font-h: Helvetica, Arial, sans-serif;
+  --font-h: DepartureMono, Helvetica, Arial, sans-serif;
   --main-width: 640px;
   --radius: 0px;
 }
@@ -138,8 +143,11 @@ h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-h);
 }
 
-h1 { font-size: 2em; }
-h2 { font-size: 1.5em; }
+h1 { font-size: 3em; }
+h2 { 
+  font-size: 2.25em; 
+  text-transform: lowercase; 
+}
 h3 { font-size: 1.17em; }
 h4 { font-size: 1.00em; }
 h5 { font-size: 0.83em; }
