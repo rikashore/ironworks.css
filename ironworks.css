@@ -149,7 +149,10 @@ h2 {
   font-size: 2.25em; 
   text-transform: lowercase; 
 }
-h3 { font-size: 1.755em; }
+h3 { 
+  font-size: 1.755em;
+  text-transform: lowercase;
+}
 h4 { font-size: 1.5em; }
 h5 { font-size: 0.83em; }
 h6 { font-size: 0.67em; }
@@ -437,4 +440,54 @@ progress::-moz-progress-bar {
 
 hr {
   border: .05rem solid var(--fg);
+}
+
+div.sidemenu {
+  width: 60%;
+  border: .1rem solid var(--fg);
+  float: right;
+  position: relative;
+  clear: right;
+  margin-right: -70%;
+  margin-top: 0.3rem;
+  margin-bottom: 0;
+  font-size: .75rem;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+div.sidemenu.before {
+  top: -0.5rem
+}
+
+div.sidemenu > :is(h1, h2, h3, h4, h5, h6, hr, p) {
+  margin: 0.5rem;
+}
+
+div.sidemenu-left{
+  float: left;
+  clear: left;
+  margin-right: 0%;
+  margin-left: -70%;
+  padding-right: 0.5rem;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+aside {
+  width: 50%;
+  float: right;
+  position: relative;
+  clear: right;
+  margin-right: -60%;
+  margin-top: 0.3rem;
+  margin-bottom: 0;
+  font-size: .75rem;
+  border-left: .1rem solid var(--fg);
+}
+
+aside > p {
+  margin: 0.5rem;
 }

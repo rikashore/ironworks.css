@@ -9,7 +9,7 @@
   <meta name="author" content="Louis Merlin">
   <meta name="description" content="A simple and to the point classless CSS stylesheet">
 
-  <title>concrete.css</title>
+  <title>ironworks.css</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -61,21 +61,34 @@
 <body>
 
   <header>
-    <h1>concrete.css</h1>
+    <h1>ironworks.css</h1>
     <p>A simple and to the point classless CSS stylesheet</p>
     <nav>
       <ul>
-        <li><a href="https://github.com/louismerlin/concrete.css">GitHub</a> |</li>
-        <li><a href="https://www.npmjs.com/package/concrete.css">npm</a> |</li>
-        <li><a href="https://cdnjs.cloudflare.com/ajax/libs/concrete.css/3.1.0/concrete.css">CDN</a></li>
+        <li><a href="https://github.com/louismerlin/concrete.css">GitHub</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
 
+    <div class="sidemenu">
+      <h3>Buttons</h3>
+      <p>Hello there</p>
+    </div>
+
+    <div class="sidemenu sidemenu-left">
+      <h3>Other Things</h3>
+      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet congue lacus, vel condimentum nisi. Nullam porttitor nibh a porttitor laoreet. Quisque vitae pellentesque felis. Nullam bibendum magna dui, ac tincidunt elit consectetur eget. Vivamus accumsan tellus vulputate iaculis cursus. In convallis congue feugiat. Cras tempor lectus justo, vel gravida felis efficitur nec. In sit amet odio accumsan, pharetra dui vitae, congue nibh. Mauris eu dolor odio.
+Phasellus maximus viverra risus, ut sollicitudin ex rutrum vitae. Aenean at sagittis felis. Morbi eu pretium purus. Quisque blandit pulvinar velit, ut volutpat tellus consequat consectetur. Quisque varius dapibus erat. Nunc nec</p>
+
+      <hr>
+      <h3>More things</h3>
+    </div>
+
     <section>
       <h2>What is this ?</h2>
+      
       <p>This is a classless CSS stylesheet, built for lightness and simplicity.</p>
       <p>Concrete can be a great starting point for a simple website.</p>
       <p>It also switches to a <strong>dark theme</strong> if your OS uses one.</p>
@@ -86,6 +99,7 @@
     <section>
       <h2>Get Started</h2>
       <h3>In your HTML <code>&lt;head&gt;</code></h3>
+      <aside class="sidenote"><p>Sidenote test!</p></aside>
       <p>Just drop this line into your HTML head:</p>
       <pre><code>&lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/concrete.css/3.1.0/concrete.min.css"&gt;</code></pre>
       <h3>In your javascript project</h3>
